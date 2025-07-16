@@ -33,8 +33,41 @@ const avengers = ["thor", "hulk", "iron man","spiderman"] // array(object)
 // let myObj = {
 //     name: "beauty",
 //     age: 22,
-// } 
+// }  
 
 const myFunction = function(){
     console.log("hello world")
 } // object
+
+
+
+
+
+
+
+
+//********************************************************************
+
+// stack (primitive) copy of value, heap memory(non-primitive) direct reference
+
+let myName = "wallflower"
+
+let anotherName = myName
+anotherName  = "beauty"
+
+console.log(myName); // output wallflower(called by value)
+console.log(anotherName); //output beauty
+
+let userOne = {
+    email: "random@gamil.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo = "random1@gmail.com"
+
+console.log(userOne);// random1@gamil.com
+console.log(userTwo);//random1@gmail.com
+
+
+
