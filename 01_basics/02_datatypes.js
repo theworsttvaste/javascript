@@ -7,7 +7,7 @@ let age = 21
 let isloggedIn = true
 
 
-//premitive datatypes
+//primitive datatypes
 
 // number => 2^53
 //bigint = use if number is very big
